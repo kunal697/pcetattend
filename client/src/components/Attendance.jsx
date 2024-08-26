@@ -8,7 +8,7 @@ function Attendance({ username, password }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/attendance', {
+    fetch('https://pcetattend.onrender.com/api/attendance', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
