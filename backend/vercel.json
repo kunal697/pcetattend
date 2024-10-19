@@ -2,14 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "Dockerfile",
-      "use": "@vercel/docker"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "scraper.js"
+      "src": "Dockerfile"
     }
   ]
 }
